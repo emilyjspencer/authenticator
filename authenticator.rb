@@ -17,10 +17,9 @@ users = [
             user_details.each { |user|
             if user[:username] == username && user[:password] == password
                 return user
-            else
-                return "Credentials were not correct"
             end 
           }
+          return "Credentials were not correct"
         end 
             
         attempts = 1
