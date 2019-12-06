@@ -10,7 +10,7 @@ users = [
         25.times { print "-" }
         puts
         puts "This program will take input from the user and compare the password"
-        puts "If the program is correct, the user object will be returned to you"
+        puts "If the password is correct, the user object will be returned to you"
         
         
         def authenticate(username, password, user_details)
